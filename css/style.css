@@ -1,0 +1,161 @@
+*{
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+
+}
+
+header{
+    background-color: rgb(37,94,233);
+    padding: 2rem;
+    color: white;
+    padding: 1.5rem 2rem;
+    display: flex: ;
+    justify-content: space-between;
+    margin: 0 .5rem;
+    @font-face {
+        font-family: 'Whitney';
+        font-style: normal;
+        font-weight: normal;
+        src: url(https://onedrive.live.com/download?resid=F87CD694B48033C9!109&authkey=!AOFbepGKctmbyqs&ithint=file%2cwoff) format('woff'); }
+}
+
+ul{
+    list-style: none;
+    padding-top: 1%;
+    padding-right: 6rem;
+}
+
+header nav ul li{
+    display: inline-block;
+    margin: 0 .5rem;
+}
+
+nav{
+    padding: 1.5rem 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+ .jumbotron{
+    margin: 0 auto;
+    font-size: 2rem;
+    padding: 7rem 15rem;
+    text-align: center;
+
+}
+.titolo{
+    padding-bottom: 1.8rem;
+}
+
+.accedi{
+    border-radius: 15%;
+    font-size: large; 
+}
+
+.bottone{
+    background-color:white;
+    margin: 1rem;
+    height: 3rem;
+    width: 4rem;
+    border-radius: 25%;
+}
+
+.bottoni-jumbotron{
+    padding-top: 0,5rem;
+}
+
+.task-1,.task-2{
+margin: 2rem;
+height: 3rem;
+border-radius:30%;
+background-color: white;
+}
+
+.task-2{
+    background-color: black;
+    color: white;
+}
+
+div.colonna{
+    padding: 1,5rem;
+}
+
+.colonna-grande{
+    width: 64%;
+}
+
+.colonna-piccola{
+    width: 30%;
+}
+
+.flex{
+    display: flex;
+
+}
+
+main>section{
+padding: 4rem;
+}
+
+.flex-centered{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+
+.contenitore{
+    margin: 0 auto;
+    max-width: 1200px;
+    font-size: 20px;
+    
+
+}
+
+.pre-footer{
+    text-align: center;
+}
+
+.bottone-blue{
+    width: 16rem;
+    margin: 0,5rem;
+}
+
+.stelle{
+    display: block;
+    margin: auto;
+    width: 50%;
+}
+
+footer{
+    background-color: #23272a;
+    color: white;
+    padding: 2rem;
+}
+
+.lista-footer{
+    display:flex
+
+}
+
+.italia{
+ width: 35px;
+height: 24px;
+}
+
+.social{
+margin:0;}
+
+lista footer ul li:first-child{
+    color:green;
+  }
+
+  linea-footer{
+    border: 0;
+    border-top: 2px solid #CCC;
+  }
+
+.fine-footer{
+    display: flex;
+    justify-content: space-between;
+}
